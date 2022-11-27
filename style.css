@@ -1,12 +1,15 @@
+body {
+  font-family: sans-serif;
+}
 .jumbotron {
   padding-top: 6rem;
   background-color: #b6ecfc;
 }
 
-#projects {
+#organization {
   background-color: #b6ecfc;
 }
 
 section {
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
