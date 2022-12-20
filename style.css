@@ -14,6 +14,8 @@ body {
 
 #about {
   background-color: #f6f7fb;
+  justify-content: center;
+  align-items: center;
 }
 
 #about p {
@@ -38,7 +40,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 3rem 2rem;
   overflow: hidden;
   transition: 0.3s;
