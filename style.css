@@ -32,6 +32,7 @@ body {
 }
 
 .card {
+  display: inline-block;
   position: relative;
   width: 100%;
   max-width: 390px;
@@ -43,4 +44,20 @@ body {
   padding: 3rem 2rem;
   overflow: hidden;
   transition: 0.3s;
+  padding: 0.85rem 2rem;
+  border-radius: 16px;
+  box-shadow: 1rem;
+}
+
+#sertif {
+  background-color: #f6f7fb;
+}
+
+#sertif img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  height: 330px;
+  width: 100%;
+  cursor: pointer;
 }
