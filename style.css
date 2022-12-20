@@ -8,10 +8,6 @@ body {
   background-color: #f6f7fb;
 }
 
-.jumbotron p {
-  color: #7a7a7a;
-}
-
 #about {
   background-color: #f6f7fb;
   justify-content: center;
@@ -22,13 +18,19 @@ body {
   color: #7a7a7a;
 }
 
+#organization {
+  background-color: #fff;
+}
+
 .btn {
   display: inline-block;
-  padding: 0.85rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 2rem;
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   transition: 0.3s;
+  background-color: #9c88ff;
+  color: #fff;
 }
 
 .card {
@@ -50,7 +52,8 @@ body {
 }
 
 #sertif {
-  background-color: #f6f7fb;
+  background-color: #8c7ae6;
+  color: #fff;
 }
 
 #sertif img {
@@ -60,4 +63,12 @@ body {
   height: 330px;
   width: 100%;
   cursor: pointer;
+}
+
+.footer {
+  background-color: #9c88ff;
+}
+
+.progress-bar {
+  background-color: #9c88ff;
 }
