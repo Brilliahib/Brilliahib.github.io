@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #fff;
+  background-color: #8c7ae6;
 }
 
 .jumbotron {
@@ -9,7 +9,8 @@ body {
 }
 
 #about {
-  background-color: #f6f7fb;
+  background-color: #8c7ae6;
+  color: #fff;
   justify-content: center;
   align-items: center;
 }
@@ -19,7 +20,12 @@ body {
 }
 
 #organization {
-  background-color: #fff;
+  background-color: #8c7ae6;
+  color: #fff;
+}
+
+#training {
+  background-color: #8c7ae6;
 }
 
 .btn {
@@ -29,7 +35,7 @@ body {
   font-size: 0.9rem;
   text-transform: uppercase;
   transition: 0.3s;
-  background-color: #9c88ff;
+  background-color: #ee5253;
   color: #fff;
 }
 
@@ -70,5 +76,5 @@ body {
 }
 
 .progress-bar {
-  background-color: #9c88ff;
+  background-color: #ee5253;
 }
