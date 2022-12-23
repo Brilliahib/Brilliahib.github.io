@@ -326,4 +326,16 @@ span {
   .box-four :hover {
     background-size: 700px;
   }
+  .box-five {
+    background-size: 850px;
+  }
+  .box-five :hover {
+    background-size: 700px;
+  }
+  .box-six {
+    background-size: 850px;
+  }
+  .box-six :hover {
+    background-size: 700px;
+  }
 }
