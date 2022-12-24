@@ -131,6 +131,8 @@ span {
   border-radius: 20px;
 }
 
+
+
 .portfolio {
   padding-top: 100px;
   background-color: #f9fafb;
@@ -336,6 +338,12 @@ span {
     background-size: 850px;
   }
   .box-six :hover {
+    background-size: 700px;
+  }
+  .box-seven {
+    background-size: 850px;
+  }
+  .box-seven :hover {
     background-size: 700px;
   }
 }
