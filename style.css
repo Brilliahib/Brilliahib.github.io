@@ -113,10 +113,8 @@ span {
 
 .experience-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
   grid-gap: 2rem;
   align-items: center;
-  text-align: center;
   margin-top: 4rem;
 }
 
