@@ -99,10 +99,9 @@ span {
   margin-bottom: 15px;
 }
 
-.about-text h2 {
+.about-text h1 {
   font-size: var(--h2-font);
-  margin-bottom: 15px;
-  color: var(--text-color);
+  margin-bottom: 2rem;
 }
 
 .about-text p {
@@ -112,8 +111,23 @@ span {
   margin-bottom: 20px;
 }
 
+.experience-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  text-align: center;
+  margin-top: 4rem;
+}
+
 .experience h6 {
   color: var(--main-color);
+  line-height: 1.1;
+}
+
+.experience .card{
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .heading {
@@ -149,7 +163,7 @@ span {
 
 .box {
   height: auto;
-  width: 370px;
+  width: auto;
   border-radius: 10px;
   transition: all 0.8s;
   overflow: hidden;
@@ -199,12 +213,19 @@ span {
 }
 
 .con-box {
-  padding: 40px 25px;
+  padding: 30px 10px;
   border-radius: 10px;
   background: white;
   cursor: pointer;
   border-bottom: 2px solid transparent;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px;
+  background-color: #f9fafb;
+  background-image: url(intro.png);
+}
+
+.bx{
+  color: var(--main-color);
+  font-size: 30px;
 }
 
 .icon i {
