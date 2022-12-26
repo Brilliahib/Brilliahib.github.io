@@ -317,7 +317,10 @@ span {
 .bottom i{
   color: #fff;
   font-size: 30px;
-  padding: 20px 0px 30px 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 35px;
+  padding-bottom: 25px;
   justify-content: center;
   align-items: center;
   text-align: center;
