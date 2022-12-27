@@ -536,6 +536,16 @@ span {
   .box-seven :hover {
     background-size: 700px;
   }
+  .box-eight {
+    background-size: 850px;
+  }
+  .box-eight :hover {
+    background-size: 700px;
+  }
+
+  .box{
+    justify-content: center;
+  }
 }
 
 
