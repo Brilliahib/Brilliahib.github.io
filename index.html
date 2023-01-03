@@ -43,7 +43,7 @@
     <!-- Navbar End -->
 
     <!-- Jumbotron -->
-    <section id="home" class="home">
+    <section id="home" class="home reveal">
       <div class="home-text">
         <h1 class="fw-bold">Muhammad Ahib Ibrilli</h1>
         <p>Hello, I'm Muhammad Ahib Ibrilli, student activism and technology developer.</p>
@@ -57,7 +57,7 @@
     <!-- Jumbotron End -->
 
     <!-- ABOUT -->
-    <section class="about" id="about">
+    <section class="about reveal" id="about">
       <div class="about-image">
         <img src="brillyyy.png" alt="" width="300">
       </div>
@@ -86,7 +86,7 @@
     <!-- ABOUT END -->
 
     <!-- EXPERIENCE -->
-    <section id="experience" class="experience" style="background-color: #fff;">
+    <section id="experience" class="experience reveal" style="background-color: #fff;">
         <div class="heading">
           <span>MY MOST RECENT</span>
           <h1 class="fw-bold pb-4">Experience</h1>
@@ -144,7 +144,7 @@
     <!-- EXPERIENCE END -->
 
     <!-- AWARDS -->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio reveal" id="portfolio">
       <div class="heading">
         <span>MY EFFORT</span>
         <h1 class="fw-bold">Awards and Achievement</h1>
@@ -198,7 +198,7 @@
     <!-- CALL -->
 
     <!-- CONTACT -->
-<section class="contact" id="contact">
+<section class="contact reveal" id="contact">
   <div class="heading">
     <span>MY LASTEST</span>
     <h1 class="fw-bold pb-4">Training</h1>
@@ -266,6 +266,26 @@
     </div>
 
     <script src="script.js"></script>
-    <script  src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript">
+      window.addEventListener('scroll', reveal);
+
+      function reveal(){
+        var reveals= document.querySelectorAll('.reveal');
+
+        for(var i=0; i < reveals.length; i++){
+          var windowheight = window.innerHeight;
+          var revealtop = reveals[i].getBoundingClientRect().top;
+          var revealpoint = 150;
+
+          if(revealtop < windowheight - revealpoint){
+            reveals[i].classList.add('active');
+          }
+
+          else{
+            reveals[i].classList.remove('active');
+          }
+        }
+      }
+    </script>
   </body>
 </html>
