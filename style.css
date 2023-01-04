@@ -560,7 +560,7 @@ span {
 
 .reveal{
   position: relative;
-  transform: translateY(150px);
+  transform: translateY(30px);
   opacity: 0;
   transition: all 2s ease;
 }
